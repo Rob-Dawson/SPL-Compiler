@@ -1,0 +1,5247 @@
+-- flex Errors -------------------------------- 
+-- gcc -ansi -DPRINT Errors -------------------------------- 
+-- bison -t Errors -------------------------------- 
+-- gcc -ansi -DYYDEBUG Errors -------------------------------- 
+-- gcc -ansi -DDEBUG Errors -------------------------------- 
+-- gcc -ansi Errors -------------------------------- 
+-- Output -------------------------------- 
+--30/11/2017----------------------------------------------------- 
+Lexical Tokens for a.spl 
+--12:31:43.73----------------------------------------------------- 
+Identifier ProgA Token: IDENTIFIER
+Token: COLON
+Token: CODE
+Token: WRITE
+Token: BRA
+Character h Token: CHARCON
+Token: COMMA
+Character e Token: CHARCON
+Token: COMMA
+Character l Token: CHARCON
+Token: COMMA
+Character l Token: CHARCON
+Token: COMMA
+Character o Token: CHARCON
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier ProgA Token: IDENTIFIER
+Token: FLOATING_POINT_END_PROGRAM
+--30/11/2017----------------------------------------------------- 
+Lexical Tokens for b.spl 
+--12:31:47.13----------------------------------------------------- 
+Identifier ProgB Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier a Token: IDENTIFIER
+Token: COMMA
+Identifier b Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Identifier c Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: CHARACTER
+Token: SEMICOLON
+Identifier d Token: IDENTIFIER
+Token: COMMA
+Identifier e Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier b Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: IF
+Identifier a Token: IDENTIFIER
+Token: GREATER_THAN
+Identifier b Token: IDENTIFIER
+Token: THEN
+Token: WRITE
+Token: BRA
+Character A Token: CHARCON
+Token: KET
+Token: ELSE
+Token: WRITE
+Token: BRA
+Character B Token: CHARCON
+Token: KET
+Token: ENDIF
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier d Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Identifier d Token: IDENTIFIER
+Token: MULTIPLY
+Float 2.3 Token: FLOAT
+Token: ASSIGN
+Identifier e Token: IDENTIFIER
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier e Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier c Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier c Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier ProgB Token: IDENTIFIER
+Token: FLOATING_POINT_END_PROGRAM
+--30/11/2017----------------------------------------------------- 
+Lexical Tokens for c.spl 
+--12:31:48.73----------------------------------------------------- 
+Identifier Prog3 Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier a Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: FOR
+Identifier a Token: IDENTIFIER
+Token: IS
+Number 1 Token: NUMBER
+Token: BY
+Number 1 Token: NUMBER
+Token: TO
+Number 13 Token: NUMBER
+Token: DO
+Token: IF
+Token: NOT
+Identifier a Token: IDENTIFIER
+Token: EQUALS
+Number 7 Token: NUMBER
+Token: THEN
+Token: WRITE
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: ENDFOR
+Token: SEMICOLON
+Number 0 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: SEMICOLON
+Token: DO
+Identifier a Token: IDENTIFIER
+Token: PLUS
+Number 1 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: SEMICOLON
+Token: IF
+Token: NOT
+Identifier a Token: IDENTIFIER
+Token: EQUALS
+Number 6 Token: NUMBER
+Token: AND
+Identifier a Token: IDENTIFIER
+Token: NOT_EQUALS_TO
+Number 8 Token: NUMBER
+Token: THEN
+Token: WRITE
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDIF
+Token: WHILE
+Identifier a Token: IDENTIFIER
+Token: LESS_THAN
+Number 14 Token: NUMBER
+Token: ENDDO
+Token: SEMICOLON
+Number 0 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: SEMICOLON
+Token: WHILE
+Identifier a Token: IDENTIFIER
+Token: LESS_THAN
+Number 12 Token: NUMBER
+Token: DO
+Token: WRITE
+Token: BRA
+Identifier a Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Identifier a Token: IDENTIFIER
+Token: PLUS
+Number 1 Token: NUMBER
+Token: ASSIGN
+Identifier a Token: IDENTIFIER
+Token: ENDWHILE
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier Prog3 Token: IDENTIFIER
+Token: FLOATING_POINT_END_PROGRAM
+--30/11/2017----------------------------------------------------- 
+Lexical Tokens for d.spl 
+--12:31:50.20----------------------------------------------------- 
+Identifier Prog4D Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier r1 Token: IDENTIFIER
+Token: COMMA
+Identifier r2 Token: IDENTIFIER
+Token: COMMA
+Identifier r3 Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: REAL
+Token: SEMICOLON
+Token: CODE
+Token: SUBTRACT
+Float 2.4 Token: FLOAT
+Token: ASSIGN
+Identifier r1 Token: IDENTIFIER
+Token: SEMICOLON
+Token: SUBTRACT
+Float 34.989 Token: FLOAT
+Token: ASSIGN
+Identifier r2 Token: IDENTIFIER
+Token: SEMICOLON
+Identifier r1 Token: IDENTIFIER
+Token: MULTIPLY
+Identifier r2 Token: IDENTIFIER
+Token: DIVIDE
+Float 7.4 Token: FLOAT
+Token: ASSIGN
+Identifier r3 Token: IDENTIFIER
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier r3 Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: READ
+Token: BRA
+Identifier r1 Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Identifier r1 Token: IDENTIFIER
+Token: PLUS
+Identifier r3 Token: IDENTIFIER
+Token: ASSIGN
+Identifier r3 Token: IDENTIFIER
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Identifier r3 Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDP
+Identifier Prog4D Token: IDENTIFIER
+Token: FLOATING_POINT_END_PROGRAM
+--30/11/2017----------------------------------------------------- 
+Lexical Tokens for e.spl 
+--12:31:51.13----------------------------------------------------- 
+Identifier ProgV Token: IDENTIFIER
+Token: COLON
+Token: DECLARATIONS
+Identifier integer Token: IDENTIFIER
+Token: COMMA
+Identifier i Token: IDENTIFIER
+Token: OF
+Token: TYPE
+Token: INTEGER
+Token: SEMICOLON
+Token: CODE
+Token: READ
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: IF
+Identifier integer Token: IDENTIFIER
+Token: LESS_THAN_OR_EQUALS_TO
+Number 5 Token: NUMBER
+Token: OR
+Identifier integer Token: IDENTIFIER
+Token: GREATER_THAN_OR_EQUALS_TO
+Number 12 Token: NUMBER
+Token: THEN
+Token: WRITE
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: ENDIF
+Token: SEMICOLON
+Token: WRITE
+Token: BRA
+Token: BRA
+Number 36 Token: NUMBER
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: KET
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: SEMICOLON
+Token: FOR
+Identifier integer Token: IDENTIFIER
+Token: IS
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: BY
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: TO
+Token: SUBTRACT
+Number 5 Token: NUMBER
+Token: DO
+Token: WRITE
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: SEMICOLON
+Token: SUBTRACT
+Number 1 Token: NUMBER
+Token: ASSIGN
+Identifier i Token: IDENTIFIER
+Token: SEMICOLON
+Token: FOR
+Identifier integer Token: IDENTIFIER
+Token: IS
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: BY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: TO
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Identifier i Token: IDENTIFIER
+Token: MULTIPLY
+Token: BRA
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: PLUS
+Identifier i Token: IDENTIFIER
+Token: KET
+Token: DO
+Token: WRITE
+Token: BRA
+Identifier integer Token: IDENTIFIER
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE
+Token: ENDFOR
+Token: ENDP
+Identifier ProgV Token: IDENTIFIER
+Token: FLOATING_POINT_END_PROGRAM
+
+--30/11/2017----------------------------------------------------- 
+Parse debug output for a.spl 
+--12:31:54.32----------------------------------------------------- 
+Starting parse
+Entering state 0
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 1
+Reading a token: Next token is token COLON ()
+Shifting token COLON ()
+Entering state 3
+Reading a token: Next token is token CODE ()
+Shifting token CODE ()
+Entering state 6
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token CHARCON ()
+Shifting token CHARCON ()
+Entering state 23
+Reducing stack by rule 52 (line 370):
+   $1 = token CHARCON ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 6 18 53
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 6 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 6 18 53
+Entering state 78
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 98
+Reading a token: Next token is token CHARCON ()
+Shifting token CHARCON ()
+Entering state 23
+Reducing stack by rule 52 (line 370):
+   $1 = token CHARCON ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 108
+Reducing stack by rule 31 (line 278):
+   $1 = nterm output_list ()
+   $2 = token COMMA ()
+   $3 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 6 18 53
+Entering state 78
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 98
+Reading a token: Next token is token CHARCON ()
+Shifting token CHARCON ()
+Entering state 23
+Reducing stack by rule 52 (line 370):
+   $1 = token CHARCON ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 108
+Reducing stack by rule 31 (line 278):
+   $1 = nterm output_list ()
+   $2 = token COMMA ()
+   $3 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 6 18 53
+Entering state 78
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 98
+Reading a token: Next token is token CHARCON ()
+Shifting token CHARCON ()
+Entering state 23
+Reducing stack by rule 52 (line 370):
+   $1 = token CHARCON ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 108
+Reducing stack by rule 31 (line 278):
+   $1 = nterm output_list ()
+   $2 = token COMMA ()
+   $3 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 6 18 53
+Entering state 78
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 98
+Reading a token: Next token is token CHARCON ()
+Shifting token CHARCON ()
+Entering state 23
+Reducing stack by rule 52 (line 370):
+   $1 = token CHARCON ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 6 18 53 78 98
+Entering state 108
+Reducing stack by rule 31 (line 278):
+   $1 = nterm output_list ()
+   $2 = token COMMA ()
+   $3 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 6 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 6
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 6
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+En#include <stdio.h>
+
+int main(void) 
+{
+
+printf("h""e""l""l""o");
+printf("\n");
+
+
+}
+tering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 6 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 6 26 55
+Entering state 26
+Reading a token: Next token is token ENDP ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 6 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 6
+Entering state 25
+Reducing stack by rule 3 (line 149):
+   $1 = token CODE ()
+   $2 = nterm statement_list ()
+-> $$ = nterm block ()
+Stack now 0 1 3
+Entering state 7
+Next token is token ENDP ()
+Shifting token ENDP ()
+Entering state 39
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 61
+Reading a token: Next token is token FLOATING_POINT_END_PROGRAM ()
+Shifting token FLOATING_POINT_END_PROGRAM ()
+Entering state 87
+Reducing stack by rule 1 (line 133):
+   $1 = token IDENTIFIER ()
+   $2 = token COLON ()
+   $3 = nterm block ()
+   $4 = token ENDP ()
+   $5 = token IDENTIFIER ()
+   $6 = token FLOATING_POINT_END_PROGRAM ()
+-> $$ = nterm program ()
+Stack now 0
+Entering state 2
+Reading a token: Now at end of input.
+Shifting token $end ()
+Entering state 4
+Stack now 0 2 4
+Cleanup: popping token $end ()
+Cleanup: popping nterm program ()
+--30/11/2017----------------------------------------------------- 
+Parse debug output for b.spl 
+--12:31:56.92----------------------------------------------------- 
+Starting parse
+Entering state 0
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 1
+Reading a token: Next token is token COLON ()
+Shifting token COLON ()
+Entering state 3
+Reading a token: Next token is token DECLARATIONS ()
+Shifting token DECLARATIONS ()
+Entering state 5
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 40
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token OF ()
+Reducing stack by rule 4 (line 154):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5 8 40
+Entering state 62
+Reducing stack by rule 5 (line 158):
+   $1 = token IDENTIFIER ()
+   $2 = token COMMA ()
+   $3 = nterm id_list ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5
+Entering state 9
+Next token is token OF ()
+Shifting token OF ()
+Entering state 41
+Reading a token: Next token is token TYPE ()
+Shifting token TYPE ()
+Entering state 63
+Reading a token: Next token is token INTEGER ()
+Shifting token INTEGER ()
+Entering state 89
+Reducing stack by rule 10 (line 181):
+   $1 = token INTEGER ()
+-> $$ = nterm type ()
+Stack now 0 1 3 5 9 41 63
+Entering state 91
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 100
+Reducing stack by rule 6 (line 163):
+   $1 = nterm id_list ()
+   $2 = token OF ()
+   $3 = token TYPE ()
+   $4 = nterm type ()
+   $5 = token SEMICOLON ()
+-> $$ = nterm single_declaration ()
+Stack now 0 1 3 5
+Entering state 10
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token OF ()
+Reducing stack by rule 4 (line 154):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5 10
+Entering state 9
+Next token is token OF ()
+Shifting token OF ()
+Entering state 41
+Reading a token: Next token is token TYPE ()
+Shifting token TYPE ()
+Entering state 63
+Reading a token: Next token is token CHARACTER ()
+Shifting token CHARACTER ()
+Entering state 88
+Reducing stack by rule 9 (line 177):
+   $1 = token CHARACTER ()
+-> $$ = nterm type ()
+Stack now 0 1 3 5 10 9 41 63
+Entering state 91
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 100
+Reducing stack by rule 6 (line 163):
+   $1 = nterm id_list ()
+   $2 = token OF ()
+   $3 = token TYPE ()
+   $4 = nterm type ()
+   $5 = token SEMICOLON ()
+-> $$ = nterm single_declaration ()
+Stack now 0 1 3 5 10
+Entering state 10
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 40
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token OF ()
+Reducing stack by rule 4 (line 154):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5 10 10 8 40
+Entering state 62
+Reducing stack by rule 5 (line 158):
+   $1 = token IDENTIFIER ()
+   $2 = token COMMA ()
+   $3 = nterm id_list ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5 10 10
+Entering state 9
+Next token is token OF ()
+Shifting token OF ()
+Entering state 41
+Reading a token: Next token is token TYPE ()
+Shifting token TYPE ()
+Entering state 63
+Reading a token: Next token is token REAL ()
+Shifting token REAL ()
+Entering state 90
+Reducing stack by rule 11 (line 185):
+   $1 = token REAL ()
+-> $$ = nterm type ()
+Stack now 0 1 3 5 10 10 9 41 63
+Entering state 91
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 100
+Reducing stack by rule 6 (line 163):
+   $1 = nterm id_list ()
+   $2 = token OF ()
+   $3 = token TYPE ()
+   $4 = nterm type ()
+   $5 = token SEMICOLON ()
+-> $$ = nterm single_declaration ()
+Stack now 0 1 3 5 10 10
+Entering state 10
+Reading a token: Next token is token CODE ()
+Reducing stack by rule 7 (line 168):
+   $1 = nterm single_declaration ()
+-> $$ = nterm declaration_block ()
+Stack now 0 1 3 5 10 10
+Entering state 42
+Reducing stack by rule 8 (line 172):
+   $1 = nterm single_declaration ()
+   $2 = nterm declaration_block ()
+-> $$ = nterm declaration_block ()
+Stack now 0 1 3 5 10
+Entering state 42
+Reducing stack by rule 8 (line 172):
+   $1 = nterm single_declaration ()
+   $2 = nterm declaration_block ()
+-> $$ = nterm declaration_block ()
+Stack now 0 1 3 5
+Entering state 11
+Next token is token CODE ()
+Shifting token CODE ()
+Entering state 43
+Reading a token: Next token is token READ ()
+Shifting token READ ()
+Entering state 20
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 54
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 80
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 99
+Reducing stack by rule 29 (line 269):
+   $1 = token READ ()
+   $2 = token BRA ()
+   $3 = token IDENTIFIER ()
+   $4 = token KET ()
+-> $$ = nterm read_statement ()
+Stack now 0 1 3 5 11 43
+Entering state 33
+Reducing stack by rule 20 (line 223):
+   $1 = nterm read_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token READ ()
+Shifting token READ ()
+Entering state 20
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 54
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 80
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 99
+Reducing stack by rule 29 (line 269):
+   $1 = token READ ()
+   $2 = token BRA ()
+   $3 = token IDENTIFIER ()
+   $4 = token KET ()
+-> $$ = nterm read_statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 33
+Reducing stack by rule 20 (line 223):
+   $1 = nterm read_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token IF ()
+Shifting token IF ()
+Entering state 14
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14
+Entering state 36
+Reading a token: Next token is token GREATER_THAN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14
+Entering state 35
+Next token is token GREATER_THAN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14
+Entering state 49
+Next token is token GREATER_THAN ()
+Shifting token GREATER_THAN ()
+Entering state 70
+Reducing stack by rule 39 (line 314):
+   $1 = token GREATER_THAN ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 49
+Entering state 74
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 49 74
+Entering state 36
+Reading a token: Next token is token THEN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 49 74
+Entering state 35
+Next token is token THEN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 49 74
+Entering state 93
+Next token is token THEN ()
+Reducing stack by rule 32 (line 283):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14
+Entering state 48
+Next token is token THEN ()
+Shifting token THEN ()
+Entering state 67
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token CHARCON ()
+Shifting token CHARCON ()
+Entering state 23
+Reducing stack by rule 52 (line 370):
+   $1 = token CHARCON ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 18 53
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67
+Entering state 26
+Reading a token: Next token is token ELSE ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67
+Entering state 92
+Next token is token ELSE ()
+Shifting token ELSE ()
+Entering state 101
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token CHARCON ()
+Shifting token CHARCON ()
+Entering state 23
+Reducing stack by rule 52 (line 370):
+   $1 = token CHARCON ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 92 101 18 53
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 92 101 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 92 101 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 92 101
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 92 101
+Entering state 26
+Reading a token: Next token is token ENDIF ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 14 48 67 92 101
+Entering state 109
+Next token is token ENDIF ()
+Shifting token ENDIF ()
+Entering state 113
+Reducing stack by rule 23 (line 238):
+   $1 = token IF ()
+   $2 = nterm conditional ()
+   $3 = token THEN ()
+   $4 = nterm statement_list ()
+   $5 = token ELSE ()
+   $6 = nterm statement_list ()
+   $7 = token ENDIF ()
+-> $$ = nterm if_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 28
+Reducing stack by rule 15 (line 203):
+   $1 = nterm if_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token READ ()
+Shifting token READ ()
+Entering state 20
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 54
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 80
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 99
+Reducing stack by rule 29 (line 269):
+   $1 = token READ ()
+   $2 = token BRA ()
+   $3 = token IDENTIFIER ()
+   $4 = token KET ()
+-> $$ = nterm read_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 33
+Reducing stack by rule 20 (line 223):
+   $1 = nterm read_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token FLOAT ()
+Shifting token FLOAT ()
+Entering state 22
+Reducing stack by rule 55 (line 383):
+   $1 = token FLOAT ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 36 59
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 36 59
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 36 59
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token READ ()
+Shifting token READ ()
+Entering state 20
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 54
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 80
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 99
+Reducing stack by rule 29 (line 269):
+   $1 = token READ ()
+   $2 = token BRA ()
+   $3 = token IDENTIFIER ()
+   $4 = token KET ()
+-> $$ = nterm read_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 33
+Reducing stack by rule 20 (line 223):
+   $1 = nterm read_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token ENDP ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm state#include <stdio.h>
+
+int main(void) 
+{
+
+int a,b;
+char c;
+float d,e;
+
+scanf(" %d",&a);
+
+scanf(" %d",&b);
+if (a >b )
+{
+printf("A");
+}
+else
+{
+printf("B");
+}
+printf("\n");
+
+scanf(" %f",&d);
+e = d *2.3 ;
+
+printf("%.2f",e );
+printf("\n");
+
+scanf(" %c",&c);
+
+printf("%c",c );
+printf("\n");
+
+}
+ment_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43
+Entering state 64
+Reducing stack by rule 2 (line 145):
+   $1 = token DECLARATIONS ()
+   $2 = nterm declaration_block ()
+   $3 = token CODE ()
+   $4 = nterm statement_list ()
+-> $$ = nterm block ()
+Stack now 0 1 3
+Entering state 7
+Next token is token ENDP ()
+Shifting token ENDP ()
+Entering state 39
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 61
+Reading a token: Next token is token FLOATING_POINT_END_PROGRAM ()
+Shifting token FLOATING_POINT_END_PROGRAM ()
+Entering state 87
+Reducing stack by rule 1 (line 133):
+   $1 = token IDENTIFIER ()
+   $2 = token COLON ()
+   $3 = nterm block ()
+   $4 = token ENDP ()
+   $5 = token IDENTIFIER ()
+   $6 = token FLOATING_POINT_END_PROGRAM ()
+-> $$ = nterm program ()
+Stack now 0
+Entering state 2
+Reading a token: Now at end of input.
+Shifting token $end ()
+Entering state 4
+Stack now 0 2 4
+Cleanup: popping token $end ()
+Cleanup: popping nterm program ()
+--30/11/2017----------------------------------------------------- 
+Parse debug output for c.spl 
+--12:31:58.66----------------------------------------------------- 
+Starting parse
+Entering state 0
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 1
+Reading a token: Next token is token COLON ()
+Shifting token COLON ()
+Entering state 3
+Reading a token: Next token is token DECLARATIONS ()
+Shifting token DECLARATIONS ()
+Entering state 5
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token OF ()
+Reducing stack by rule 4 (line 154):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5
+Entering state 9
+Next token is token OF ()
+Shifting token OF ()
+Entering state 41
+Reading a token: Next token is token TYPE ()
+Shifting token TYPE ()
+Entering state 63
+Reading a token: Next token is token INTEGER ()
+Shifting token INTEGER ()
+Entering state 89
+Reducing stack by rule 10 (line 181):
+   $1 = token INTEGER ()
+-> $$ = nterm type ()
+Stack now 0 1 3 5 9 41 63
+Entering state 91
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 100
+Reducing stack by rule 6 (line 163):
+   $1 = nterm id_list ()
+   $2 = token OF ()
+   $3 = token TYPE ()
+   $4 = nterm type ()
+   $5 = token SEMICOLON ()
+-> $$ = nterm single_declaration ()
+Stack now 0 1 3 5
+Entering state 10
+Reading a token: Next token is token CODE ()
+Reducing stack by rule 7 (line 168):
+   $1 = nterm single_declaration ()
+-> $$ = nterm declaration_block ()
+Stack now 0 1 3 5
+Entering state 11
+Next token is token CODE ()
+Shifting token CODE ()
+Entering state 43
+Reading a token: Next token is token FOR ()
+Shifting token FOR ()
+Entering state 17
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 52
+Reading a token: Next token is token IS ()
+Shifting token IS ()
+Entering state 77
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 17 52 77
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 17 52 77
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 17 52 77
+Entering state 36
+Reading a token: Next token is token BY ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 17 52 77
+Entering state 35
+Next token is token BY ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 17 52 77
+Entering state 96
+Next token is token BY ()
+Shifting token BY ()
+Entering state 107
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107
+Entering state 36
+Reading a token: Next token is token TO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107
+Entering state 35
+Next token is token TO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107
+Entering state 112
+Next token is token TO ()
+Shifting token TO ()
+Entering state 114
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114
+Entering state 36
+Reading a token: Next token is token DO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114
+Entering state 35
+Next token is token DO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114
+Entering state 115
+Next token is token DO ()
+Shifting token DO ()
+Entering state 116
+Reading a token: Next token is token IF ()
+Shifting token IF ()
+Entering state 14
+Reading a token: Next token is token NOT ()
+Shifting token NOT ()
+Entering state 47
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47
+Entering state 36
+Reading a token: Next token is token EQUALS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47
+Entering state 35
+Next token is token EQUALS ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47
+Entering state 49
+Next token is token EQUALS ()
+Shifting token EQUALS ()
+Entering state 68
+Reducing stack by rule 36 (line 302):
+   $1 = token EQUALS ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47 49
+Entering state 74
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47 49 74
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47 49 74
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47 49 74
+Entering state 36
+Reading a token: Next token is token THEN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47 49 74
+Entering state 35
+Next token is token THEN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47 49 74
+Entering state 93
+Next token is token THEN ()
+Reducing stack by rule 32 (line 283):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 47
+Entering state 66
+Reducing stack by rule 35 (line 297):
+   $1 = token NOT ()
+   $2 = nterm conditional ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14
+Entering state 48
+Next token is token THEN ()
+Shifting token THEN ()
+Entering state 67
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67 26 55
+Entering state 26
+Reading a token: Next token is token ENDIF ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116 14 48 67
+Entering state 92
+Next token is token ENDIF ()
+Shifting token ENDIF ()
+Entering state 102
+Reducing stack by rule 22 (line 233):
+   $1 = token IF ()
+   $2 = nterm conditional ()
+   $3 = token THEN ()
+   $4 = nterm statement_list ()
+   $5 = token ENDIF ()
+-> $$ = nterm if_statement ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116
+Entering state 28
+Reducing stack by rule 15 (line 203):
+   $1 = nterm if_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116
+Entering state 26
+Reading a token: Next token is token ENDFOR ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 17 52 77 96 107 112 114 115 116
+Entering state 117
+Next token is token ENDFOR ()
+Shifting token ENDFOR ()
+Entering state 118
+Reducing stack by rule 26 (line 253):
+   $1 = token FOR ()
+   $2 = token IDENTIFIER ()
+   $3 = token IS ()
+   $4 = nterm expression ()
+   $5 = token BY ()
+   $6 = nterm expression ()
+   $7 = token TO ()
+   $8 = nterm expression ()
+   $9 = token DO ()
+   $10 = nterm statement_list ()
+   $11 = token ENDFOR ()
+-> $$ = nterm for_statement ()
+Stack now 0 1 3 5 11 43
+Entering state 31
+Reducing stack by rule 18 (line 215):
+   $1 = nterm for_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token DO ()
+Shifting token DO ()
+Entering state 15
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15
+Entering state 36
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15
+Entering state 35
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 57
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 35 57
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 35 57
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 35 57
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 35 57
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 35 57
+Entering state 83
+Reducing stack by rule 43 (line 331):
+   $1 = nterm term ()
+   $2 = token PLUS ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token IF ()
+Shifting token IF ()
+Entering state 14
+Reading a token: Next token is token NOT ()
+Shifting token NOT ()
+Entering state 47
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47
+Entering state 36
+Reading a token: Next token is token EQUALS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47
+Entering state 35
+Next token is token EQUALS ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47
+Entering state 49
+Next token is token EQUALS ()
+Shifting token EQUALS ()
+Entering state 68
+Reducing stack by rule 36 (line 302):
+   $1 = token EQUALS ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49
+Entering state 74
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74
+Entering state 36
+Reading a token: Next token is token AND ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74
+Entering state 35
+Next token is token AND ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74
+Entering state 93
+Next token is token AND ()
+Shifting token AND ()
+Entering state 103
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103
+Entering state 36
+Reading a token: Next token is token NOT_EQUALS_TO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103
+Entering state 35
+Next token is token NOT_EQUALS_TO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103
+Entering state 49
+Next token is token NOT_EQUALS_TO ()
+Shifting token NOT_EQUALS_TO ()
+Entering state 73
+Reducing stack by rule 37 (line 306):
+   $1 = token NOT_EQUALS_TO ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103 49
+Entering state 74
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103 49 74
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103 49 74
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103 49 74
+Entering state 36
+Reading a token: Next token is token THEN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103 49 74
+Entering state 35
+Next token is token THEN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103 49 74
+Entering state 93
+Next token is token THEN ()
+Reducing stack by rule 32 (line 283):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47 49 74 93 103
+Entering state 110
+Reducing stack by rule 33 (line 287):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+   $4 = token AND ()
+   $5 = nterm conditional ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 47
+Entering state 66
+Reducing stack by rule 35 (line 297):
+   $1 = token NOT ()
+   $2 = nterm conditional ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14
+Entering state 48
+Next token is token THEN ()
+Shifting token THEN ()
+Entering state 67
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67 26 55
+Entering state 26
+Reading a token: Next token is token ENDIF ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55 14 48 67
+Entering state 92
+Next token is token ENDIF ()
+Shifting token ENDIF ()
+Entering state 102
+Reducing stack by rule 22 (line 233):
+   $1 = token IF ()
+   $2 = nterm conditional ()
+   $3 = token THEN ()
+   $4 = nterm statement_list ()
+   $5 = token ENDIF ()
+-> $$ = nterm if_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55
+Entering state 28
+Reducing stack by rule 15 (line 203):
+   $1 = nterm if_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55
+Entering state 26
+Reading a token: Next token is token WHILE ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15
+Entering state 50
+Next token is token WHILE ()
+Shifting token WHILE ()
+Entering state 75
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75
+Entering state 36
+Reading a token: Next token is token LESS_THAN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75
+Entering state 35
+Next token is token LESS_THAN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75
+Entering state 49
+Next token is token LESS_THAN ()
+Shifting token LESS_THAN ()
+Entering state 69
+Reducing stack by rule 38 (line 310):
+   $1 = token LESS_THAN ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75 49
+Entering state 74
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75 49 74
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75 49 74
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75 49 74
+Entering state 36
+Reading a token: Next token is token ENDDO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75 49 74
+Entering state 35
+Next token is token ENDDO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75 49 74
+Entering state 93
+Next token is token ENDDO ()
+Reducing stack by rule 32 (line 283):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 26 55 15 50 75
+Entering state 94
+Next token is token ENDDO ()
+Shifting token ENDDO ()
+Entering state 105
+Reducing stack by rule 24 (line 243):
+   $1 = token DO ()
+   $2 = nterm statement_list ()
+   $3 = token WHILE ()
+   $4 = nterm conditional ()
+   $5 = token ENDDO ()
+-> $$ = nterm do_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 29
+Reducing stack by rule 16 (line 207):
+   $1 = nterm do_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token WHILE ()
+Shifting token WHILE ()
+Entering state 16
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16
+Entering state 36
+Reading a token: Next token is token LESS_THAN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16
+Entering state 35
+Next token is token LESS_THAN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16
+Entering state 49
+Next token is token LESS_THAN ()
+Shifting token LESS_THAN ()
+Entering state 69
+Reducing stack by rule 38 (line 310):
+   $1 = token LESS_THAN ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 49
+Entering state 74
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 49 74
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 49 74
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 49 74
+Entering state 36
+Reading a token: Next token is token DO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 49 74
+Entering state 35
+Next token is token DO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 49 74
+Entering state 93
+Next token is token DO ()
+Reducing stack by rule 32 (line 283):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16
+Entering state 51
+Next token is token DO ()
+Shifting token DO ()
+Entering state 76
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55
+Entering state 36
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55
+Entering state 35
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 57
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55 35 57
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55 35 57
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55 35 57
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55 35 57
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55 35 57
+Entering state 83
+Reducing stack by rule 43 (line 331):
+   $1 = nterm term ()
+   $2 = token PLUS ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 #include <stdio.h>
+
+int main(void) 
+{
+
+int a;
+register int _by, _sign;for (a = 1; _by = 1, _sign=(_by == 0 ? 1 : _by/abs(_by)), (a-(13))*_sign <= 0 ;a+= _by)
+{if (!(a ==7))
+{
+printf("%d",a );
+printf("\n");
+}
+
+}
+a = 0;
+do
+{a = a +1;
+if (!(a ==6 && a !=8))
+{
+printf("%d",a );
+printf("\n");
+}
+} while(a <14);
+a = 0;
+while (a <12) 
+{
+
+printf("%d",a );
+a = a +1;
+
+}
+printf("\n");
+
+}
+26 55 26 55 16 51 76 26 55
+Entering state 26
+Reading a token: Next token is token ENDWHILE ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 16 51 76
+Entering state 95
+Next token is token ENDWHILE ()
+Shifting token ENDWHILE ()
+Entering state 106
+Reducing stack by rule 25 (line 248):
+   $1 = token WHILE ()
+   $2 = nterm conditional ()
+   $3 = token DO ()
+   $4 = nterm statement_list ()
+   $5 = token ENDWHILE ()
+-> $$ = nterm while_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 30
+Reducing stack by rule 17 (line 211):
+   $1 = nterm while_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token ENDP ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43
+Entering state 64
+Reducing stack by rule 2 (line 145):
+   $1 = token DECLARATIONS ()
+   $2 = nterm declaration_block ()
+   $3 = token CODE ()
+   $4 = nterm statement_list ()
+-> $$ = nterm block ()
+Stack now 0 1 3
+Entering state 7
+Next token is token ENDP ()
+Shifting token ENDP ()
+Entering state 39
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 61
+Reading a token: Next token is token FLOATING_POINT_END_PROGRAM ()
+Shifting token FLOATING_POINT_END_PROGRAM ()
+Entering state 87
+Reducing stack by rule 1 (line 133):
+   $1 = token IDENTIFIER ()
+   $2 = token COLON ()
+   $3 = nterm block ()
+   $4 = token ENDP ()
+   $5 = token IDENTIFIER ()
+   $6 = token FLOATING_POINT_END_PROGRAM ()
+-> $$ = nterm program ()
+Stack now 0
+Entering state 2
+Reading a token: Now at end of input.
+Shifting token $end ()
+Entering state 4
+Stack now 0 2 4
+Cleanup: popping token $end ()
+Cleanup: popping nterm program ()
+--30/11/2017----------------------------------------------------- 
+Parse debug output for d.spl 
+--12:31:59.52----------------------------------------------------- 
+Starting parse
+Entering state 0
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 1
+Reading a token: Next token is token COLON ()
+Shifting token COLON ()
+Entering state 3
+Reading a token: Next token is token DECLARATIONS ()
+Shifting token DECLARATIONS ()
+Entering state 5
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 40
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 40
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token OF ()
+Reducing stack by rule 4 (line 154):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5 8 40 8 40
+Entering state 62
+Reducing stack by rule 5 (line 158):
+   $1 = token IDENTIFIER ()
+   $2 = token COMMA ()
+   $3 = nterm id_list ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5 8 40
+Entering state 62
+Reducing stack by rule 5 (line 158):
+   $1 = token IDENTIFIER ()
+   $2 = token COMMA ()
+   $3 = nterm id_list ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5
+Entering state 9
+Next token is token OF ()
+Shifting token OF ()
+Entering state 41
+Reading a token: Next token is token TYPE ()
+Shifting token TYPE ()
+Entering state 63
+Reading a token: Next token is token REAL ()
+Shifting token REAL ()
+Entering state 90
+Reducing stack by rule 11 (line 185):
+   $1 = token REAL ()
+-> $$ = nterm type ()
+Stack now 0 1 3 5 9 41 63
+Entering state 91
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 100
+Reducing stack by rule 6 (line 163):
+   $1 = nterm id_list ()
+   $2 = token OF ()
+   $3 = token TYPE ()
+   $4 = nterm type ()
+   $5 = token SEMICOLON ()
+-> $$ = nterm single_declaration ()
+Stack now 0 1 3 5
+Entering state 10
+Reading a token: Next token is token CODE ()
+Reducing stack by rule 7 (line 168):
+   $1 = nterm single_declaration ()
+-> $$ = nterm declaration_block ()
+Stack now 0 1 3 5
+Entering state 11
+Next token is token CODE ()
+Shifting token CODE ()
+Entering state 43
+Reading a token: Next token is token SUBTRACT ()
+Shifting token SUBTRACT ()
+Entering state 12
+Reading a token: Next token is token FLOAT ()
+Shifting token FLOAT ()
+Entering state 45
+Reducing stack by rule 56 (line 387):
+   $1 = token SUBTRACT ()
+   $2 = token FLOAT ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token SUBTRACT ()
+Shifting token SUBTRACT ()
+Entering state 12
+Reading a token: Next token is token FLOAT ()
+Shifting token FLOAT ()
+Entering state 45
+Reducing stack by rule 56 (line 387):
+   $1 = token SUBTRACT ()
+   $2 = token FLOAT ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 36 59
+Entering state 36
+Reading a token: Next token is token DIVIDE ()
+Shifting token DIVIDE ()
+Entering state 60
+Reading a token: Next token is token FLOAT ()
+Shifting token FLOAT ()
+Entering state 22
+Reducing stack by rule 55 (line 383):
+   $1 = token FLOAT ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 36 59 36 60
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 36 59 36 60
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 36 59 36 60
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 36 59 36 60
+Entering state 86
+Reducing stack by rule 47 (line 348):
+   $1 = nterm value ()
+   $2 = token DIVIDE ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token READ ()
+Shifting token READ ()
+Entering state 20
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 54
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 80
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 99
+Reducing stack by rule 29 (line 269):
+   $1 = token READ ()
+   $2 = token BRA ()
+   $3 = token IDENTIFIER ()
+   $4 = token KET ()
+-> $$ = nterm read_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 33
+Reducing stack by rule 20 (line 223):
+   $1 = nterm read_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 36
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 35
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 57
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 35 57
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 35 57
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 35 57
+Entering state 83
+Reducing stack by rule 43 (line 331):
+   $1 = nterm term ()
+   $2 = token PLUS ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token ENDP ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43
+Entering state 64
+Reducing stack by rule 2 (line 145):
+   #include <stdio.h>
+
+int main(void) 
+{
+
+float r1,r2,r3;
+r1 = -2.4 ;
+r2 = -34.989 ;
+r3 = r1 *r2 /7.4 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+scanf(" %f",&r1);
+r3 = r1 +r3 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+}
+$1 = token DECLARATIONS ()
+   $2 = nterm declaration_block ()
+   $3 = token CODE ()
+   $4 = nterm statement_list ()
+-> $$ = nterm block ()
+Stack now 0 1 3
+Entering state 7
+Next token is token ENDP ()
+Shifting token ENDP ()
+Entering state 39
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 61
+Reading a token: Next token is token FLOATING_POINT_END_PROGRAM ()
+Shifting token FLOATING_POINT_END_PROGRAM ()
+Entering state 87
+Reducing stack by rule 1 (line 133):
+   $1 = token IDENTIFIER ()
+   $2 = token COLON ()
+   $3 = nterm block ()
+   $4 = token ENDP ()
+   $5 = token IDENTIFIER ()
+   $6 = token FLOATING_POINT_END_PROGRAM ()
+-> $$ = nterm program ()
+Stack now 0
+Entering state 2
+Reading a token: Now at end of input.
+Shifting token $end ()
+Entering state 4
+Stack now 0 2 4
+Cleanup: popping token $end ()
+Cleanup: popping nterm program ()
+--30/11/2017----------------------------------------------------- 
+Parse debug output for e.spl 
+--12:32:00.42----------------------------------------------------- 
+Starting parse
+Entering state 0
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 1
+Reading a token: Next token is token COLON ()
+Shifting token COLON ()
+Entering state 3
+Reading a token: Next token is token DECLARATIONS ()
+Shifting token DECLARATIONS ()
+Entering state 5
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token COMMA ()
+Shifting token COMMA ()
+Entering state 40
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 8
+Reading a token: Next token is token OF ()
+Reducing stack by rule 4 (line 154):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5 8 40
+Entering state 62
+Reducing stack by rule 5 (line 158):
+   $1 = token IDENTIFIER ()
+   $2 = token COMMA ()
+   $3 = nterm id_list ()
+-> $$ = nterm id_list ()
+Stack now 0 1 3 5
+Entering state 9
+Next token is token OF ()
+Shifting token OF ()
+Entering state 41
+Reading a token: Next token is token TYPE ()
+Shifting token TYPE ()
+Entering state 63
+Reading a token: Next token is token INTEGER ()
+Shifting token INTEGER ()
+Entering state 89
+Reducing stack by rule 10 (line 181):
+   $1 = token INTEGER ()
+-> $$ = nterm type ()
+Stack now 0 1 3 5 9 41 63
+Entering state 91
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 100
+Reducing stack by rule 6 (line 163):
+   $1 = nterm id_list ()
+   $2 = token OF ()
+   $3 = token TYPE ()
+   $4 = nterm type ()
+   $5 = token SEMICOLON ()
+-> $$ = nterm single_declaration ()
+Stack now 0 1 3 5
+Entering state 10
+Reading a token: Next token is token CODE ()
+Reducing stack by rule 7 (line 168):
+   $1 = nterm single_declaration ()
+-> $$ = nterm declaration_block ()
+Stack now 0 1 3 5
+Entering state 11
+Next token is token CODE ()
+Shifting token CODE ()
+Entering state 43
+Reading a token: Next token is token READ ()
+Shifting token READ ()
+Entering state 20
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 54
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 80
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 99
+Reducing stack by rule 29 (line 269):
+   $1 = token READ ()
+   $2 = token BRA ()
+   $3 = token IDENTIFIER ()
+   $4 = token KET ()
+-> $$ = nterm read_statement ()
+Stack now 0 1 3 5 11 43
+Entering state 33
+Reducing stack by rule 20 (line 223):
+   $1 = nterm read_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token IF ()
+Shifting token IF ()
+Entering state 14
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 14
+Entering state 36
+Reading a token: Next token is token LESS_THAN_OR_EQUALS_TO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 14
+Entering state 35
+Next token is token LESS_THAN_OR_EQUALS_TO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 14
+Entering state 49
+Next token is token LESS_THAN_OR_EQUALS_TO ()
+Shifting token LESS_THAN_OR_EQUALS_TO ()
+Entering state 71
+Reducing stack by rule 40 (line 318):
+   $1 = token LESS_THAN_OR_EQUALS_TO ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 26 55 14 49
+Entering state 74
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74
+Entering state 36
+Reading a token: Next token is token OR ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74
+Entering state 35
+Next token is token OR ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74
+Entering state 93
+Next token is token OR ()
+Shifting token OR ()
+Entering state 104
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104
+Entering state 36
+Reading a token: Next token is token GREATER_THAN_OR_EQUALS_TO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104
+Entering state 35
+Next token is token GREATER_THAN_OR_EQUALS_TO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104
+Entering state 49
+Next token is token GREATER_THAN_OR_EQUALS_TO ()
+Shifting token GREATER_THAN_OR_EQUALS_TO ()
+Entering state 72
+Reducing stack by rule 41 (line 322):
+   $1 = token GREATER_THAN_OR_EQUALS_TO ()
+-> $$ = nterm comparator ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104 49
+Entering state 74
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104 49 74
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104 49 74
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104 49 74
+Entering state 36
+Reading a token: Next token is token THEN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104 49 74
+Entering state 35
+Next token is token THEN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104 49 74
+Entering state 93
+Next token is token THEN ()
+Reducing stack by rule 32 (line 283):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 14 49 74 93 104
+Entering state 111
+Reducing stack by rule 34 (line 292):
+   $1 = nterm expression ()
+   $2 = nterm comparator ()
+   $3 = nterm expression ()
+   $4 = token OR ()
+   $5 = nterm conditional ()
+-> $$ = nterm conditional ()
+Stack now 0 1 3 5 11 43 26 55 14
+Entering state 48
+Next token is token THEN ()
+Shifting token THEN ()
+Entering state 67
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 14 48 67 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 14 48 67 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 14 48 67
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 14 48 67
+Entering state 26
+Reading a token: Next token is token ENDIF ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 14 48 67
+Entering state 92
+Next token is token ENDIF ()
+Shifting token ENDIF ()
+Entering state 102
+Reducing stack by rule 22 (line 233):
+   $1 = token IF ()
+   $2 = nterm conditional ()
+   $3 = token THEN ()
+   $4 = nterm statement_list ()
+   $5 = token ENDIF ()
+-> $$ = nterm if_statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 28
+Reducing stack by rule 15 (line 203):
+   $1 = nterm if_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 13
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13
+Entering state 36
+Reading a token: Next token is token SUBTRACT ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13
+Entering state 35
+Next token is token SUBTRACT ()
+Shifting token SUBTRACT ()
+Entering state 58
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 21
+Reducing stack by rule 53 (line 375):
+   $1 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13 35 58
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13 35 58
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13 35 58
+Entering state 36
+Reading a token: Next token is token KET ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13 35 58
+Entering state 35
+Next token is token KET ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13 35 58
+Entering state 84
+Reducing stack by rule 44 (line 335):
+   $1 = nterm term ()
+   $2 = token SUBTRACT ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53 13
+Entering state 46
+Next token is token KET ()
+Shifting token KET ()
+Entering state 65
+Reducing stack by rule 50 (line 361):
+   $1 = token BRA ()
+   $2 = nterm expression ()
+   $3 = token KET ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token FOR ()
+Shifting token FOR ()
+Entering state 17
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 52
+Reading a token: Next token is token IS ()
+Shifting token IS ()
+Entering state 77
+Reading a token: Next token is token SUBTRACT ()
+Shifting token SUBTRACT ()
+Entering state 12
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 44
+Reducing stack by rule 54 (line 379):
+   $1 = token SUBTRACT ()
+   $2 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77
+Entering state 36
+Reading a token: Next token is token BY ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77
+Entering state 35
+Next token is token BY ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77
+Entering state 96
+Next token is token BY ()
+Shifting token BY ()
+Entering state 107
+Reading a token: Next token is token SUBTRACT ()
+Shifting token SUBTRACT ()
+Entering state 12
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 44
+Reducing stack by rule 54 (line 379):
+   $1 = token SUBTRACT ()
+   $2 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 36
+Reading a token: Next token is token TO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 35
+Next token is token TO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 112
+Next token is token TO ()
+Shifting token TO ()
+Entering state 114
+Reading a token: Next token is token SUBTRACT ()
+Shifting token SUBTRACT ()
+Entering state 12
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 44
+Reducing stack by rule 54 (line 379):
+   $1 = token SUBTRACT ()
+   $2 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 36
+Reading a token: Next token is token DO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 35
+Next token is token DO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 115
+Next token is token DO ()
+Shifting token DO ()
+Entering state 116
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 26 55
+Entering state 26
+Reading a token: Next token is token ENDFOR ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116
+Entering state 117
+Next token is token ENDFOR ()
+Shifting token ENDFOR ()
+Entering state 118
+Reducing stack by rule 26 (line 253):
+   $1 = token FOR ()
+   $2 = token IDENTIFIER ()
+   $3 = token IS ()
+   $4 = nterm expression ()
+   $5 = token BY ()
+   $6 = nterm expression ()
+   $7 = token TO ()
+   $8 = nterm expression ()
+   $9 = token DO ()
+   $10 = nterm statement_list ()
+   $11 = token ENDFOR ()
+-> $$ = nterm for_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 31
+Reducing stack by rule 18 (line 215):
+   $1 = nterm for_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token SUBTRACT ()
+Shifting token SUBTRACT ()
+Entering state 12
+Reading a token: Next token is token NUMBER ()
+Shifting token NUMBER ()
+Entering state 44
+Reducing stack by rule 54 (line 379):
+   $1 = token SUBTRACT ()
+   $2 = token NUMBER ()
+-> $$ = nterm number_constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 38
+Reducing stack by rule 51 (line 366):
+   $1 = nterm number_constant ()
+-> $$ = nterm constant ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 37
+Reducing stack by rule 49 (line 357):
+   $1 = nterm constant ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 36
+Reading a token: Next token is token ASSIGN ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 35
+Next token is token ASSIGN ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 34
+Next token is token ASSIGN ()
+Shifting token ASSIGN ()
+Entering state 56
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 82
+Reducing stack by rule 21 (line 228):
+   $1 = nterm expression ()
+   $2 = token ASSIGN ()
+   $3 = token IDENTIFIER ()
+-> $$ = nterm assignment_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 27
+Reducing stack by rule 14 (line 199):
+   $1 = nterm assignment_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token FOR ()
+Shifting token FOR ()
+Entering state 17
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 52
+Reading a token: Next token is token IS ()
+Shifting token IS ()
+Entering state 77
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 36 59
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 36 59 36 59
+Entering state 36
+Reading a token: Next token is token BY ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 36 59 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77
+Entering state 35
+Next token is token BY ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77
+Entering state 96
+Next token is token BY ()
+Shifting token BY ()
+Entering state 107
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59 36 59
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59 36 59 36 59
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59 36 59 36 59 36 59
+Entering state 36
+Reading a token: Next token is token TO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59 36 59 36 59 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59 36 59 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 35
+Next token is token TO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107
+Entering state 112
+Next token is token TO ()
+Shifting token TO ()
+Entering state 114
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59
+Entering state 36
+Reading a token: Next token is token MULTIPLY ()
+Shifting token MULTIPLY ()
+Entering state 59
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 13
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13
+Entering state 36
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13
+Entering state 35
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 57
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57
+Entering state 36
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57
+Entering state 35
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 57
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57
+Entering state 36
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57
+Entering state 35
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 57
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57 35 57
+Entering state 36
+Reading a token: Next token is token PLUS ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57 35 57
+Entering state 35
+Next token is token PLUS ()
+Shifting token PLUS ()
+Entering state 57
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57 35 57 35 57
+Entering state 36
+Reading a token: Next token is token KET ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57 35 57 35 57
+Entering state 35
+Next token is token KET ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57 35 57 35 57
+Entering state 83
+Reducing stack by rule 43 (line 331):
+   $1 = nterm term ()
+   $2 = token PLUS ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57 35 57
+Entering state 83
+Reducing stack by rule 43 (line 331):
+   $1 = nterm term ()
+   $2 = token PLUS ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57 35 57
+Entering state 83
+Reducing stack by rule 43 (line 331):
+   $1 = nterm term ()
+   $2 = token PLUS ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13 35 57
+Entering state 83
+Reducing stack by rule 43 (line 331):
+   $1 = nterm term ()
+   $2 = token PLUS ()
+   $3 = nterm expression ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59 13
+Entering state 46
+Next token is token KET ()
+Shifting token KET ()
+Entering state 65
+Reducing stack by rule 50 (line 361):
+   $1 = token BRA ()
+   $2 = nterm expression ()
+   $3 = token KET ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59
+Entering state 36
+Reading a token: Next token is token DO ()
+Reducing stack by rule 45 (line 340):
+   $1 = nterm value ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 36 59
+Entering state 85
+Reducing stack by rule 46 (line 344):
+   $1 = nterm value ()
+   $2 = token MULTIPLY ()
+   $3 = nterm term ()
+-> $$ = nterm term ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 35
+Next token is token DO ()
+Reducing stack by rule 42 (line 327):
+   $1 = nterm term ()
+-> $$ = nterm expression ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114
+Entering state 115
+Next token is token DO ()
+Shifting token DO ()
+Entering state 116
+Reading a token: Next token is token WRITE ()
+Shifting token WRITE ()
+Entering state 18
+Reading a token: Next token is token BRA ()
+Shifting token BRA ()
+Entering state 53
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 24
+Reducing stack by rule 48 (line 353):
+   $1 = token IDENTIFIER ()
+-> $$ = nterm value ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 18 53
+Entering state 79
+Reducing stack by rule 30 (line 274):
+   $1 = nterm value ()
+-> $$ = nterm output_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 18 53
+Entering state 78
+Reading a token: Next token is token KET ()
+Shifting token KET ()
+Entering state 97
+Reducing stack by rule 28 (line 264):
+   $1 = token WRITE ()
+   $2 = token BRA ()
+   $3 = nterm output_list ()
+   $4 = token KET ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116
+Entering state 26
+Reading a token: Next token is token SEMICOLON ()
+Shifting token SEMICOLON ()
+Entering state 55
+Reading a token: Next token is token NEWLINE ()
+Shifting token NEWLINE ()
+Entering state 19
+Reducing stack by rule 27 (line 260):
+   $1 = token NEWLINE ()
+-> $$ = nterm write_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 26 55
+Entering state 32
+Reducing stack by rule 19 (line 219):
+   $1 = nterm write_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 26 55
+Entering state 26
+Reading a token: Next token is token ENDFOR ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55 17 52 77 96 107 112 114 115 116
+Entering state 117
+Next token is token ENDFOR ()
+Shifting token ENDFOR ()
+Entering state 118
+Reducing stack by rule 26 (line 253):
+   $1 = token FOR ()
+   $2 = token IDENTIFIER ()
+   $3 = token IS ()
+   $4 = nterm expression ()
+   $5 = token BY ()
+   $6 = nterm expression ()
+   $7 = token TO ()
+   $8 = nterm expression ()
+   $9 = token DO ()
+   $10 = nterm statement_list ()
+   $11 = token ENDFOR ()
+-> $$ = nterm for_statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 31
+Reducing stack by rule 18 (line 215):
+   $1 = nterm for_statement ()
+-> $$ = nterm statement ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 26
+Reading a token: Next token is token ENDP ()
+Reducing stack by rule 12 (line 190):
+   $1 = nterm statement ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11#include <stdio.h>
+
+int main(void) 
+{
+
+int integer,i;
+
+scanf(" %d",&integer);
+if (integer <=5 || integer >=12)
+{
+printf("%d",integer );
+}
+
+printf("%d",36-1);
+printf("\n");
+register int _by, _sign;for (integer = -1 ; _by = -1 , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(-5 ))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+i = -1 ;
+for (integer = i *i *i ; _by = i *i *i *i *i , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(i *i *(i +i +i +i +i )))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+
+}
+ 43 26 55 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43 26 55
+Entering state 81
+Reducing stack by rule 13 (line 194):
+   $1 = nterm statement ()
+   $2 = token SEMICOLON ()
+   $3 = nterm statement_list ()
+-> $$ = nterm statement_list ()
+Stack now 0 1 3 5 11 43
+Entering state 64
+Reducing stack by rule 2 (line 145):
+   $1 = token DECLARATIONS ()
+   $2 = nterm declaration_block ()
+   $3 = token CODE ()
+   $4 = nterm statement_list ()
+-> $$ = nterm block ()
+Stack now 0 1 3
+Entering state 7
+Next token is token ENDP ()
+Shifting token ENDP ()
+Entering state 39
+Reading a token: Next token is token IDENTIFIER ()
+Shifting token IDENTIFIER ()
+Entering state 61
+Reading a token: Next token is token FLOATING_POINT_END_PROGRAM ()
+Shifting token FLOATING_POINT_END_PROGRAM ()
+Entering state 87
+Reducing stack by rule 1 (line 133):
+   $1 = token IDENTIFIER ()
+   $2 = token COLON ()
+   $3 = nterm block ()
+   $4 = token ENDP ()
+   $5 = token IDENTIFIER ()
+   $6 = token FLOATING_POINT_END_PROGRAM ()
+-> $$ = nterm program ()
+Stack now 0
+Entering state 2
+Reading a token: Now at end of input.
+Shifting token $end ()
+Entering state 4
+Stack now 0 2 4
+Cleanup: popping token $end ()
+Cleanup: popping nterm program ()
+--30/11/2017----------------------------------------------------- 
+Parse Tree output for a.spl 
+--12:32:04.03----------------------------------------------------- 
+Identifier: ProgA PROGRAM
+   BLOCK
+      STATEMENT_LIST
+         STATEMENT
+            WRITE_STATEMENT
+               OUTPUT_LIST
+                  OUTPUT_LIST
+                     OUTPUT_LIST
+                        OUTPUT_LIST
+                           OUTPUT_LIST
+                              Con_VALUE
+                                 Character: h CHARACTER_CONSTANT
+                           Con_VALUE
+                              Character: e CHARACTER_CONSTANT
+                        Con_VALUE
+                           Character: l CHARACTER_CONSTANT
+                     Con_VALUE
+                        Character: l CHARACTER_CONSTANT
+                  Con_VALUE
+                     Character: o CHARACTER_CONSTANT
+         STATEMENT_LIST
+            STATEMENT
+               NEWLINE_STATEMENT
+   Identifier: ProgA PROGRAM
+#include <stdio.h>
+
+int main(void) 
+{
+
+printf("h""e""l""l""o");
+printf("\n");
+
+
+}
+--30/11/2017----------------------------------------------------- 
+Parse Tree output for b.spl 
+--12:32:05.51----------------------------------------------------- 
+Identifier: ProgB PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         SINGLE_DECLARATION
+            Identifier: a ID_LIST
+               Identifier: b ID_LIST
+            Integer
+TYPE_Node
+         DECLARATION_BLOCK
+            SINGLE_DECLARATION
+               Identifier: c ID_LIST
+               Character
+TYPE_Node
+            DECLARATION_BLOCK
+               SINGLE_DECLARATION
+                  Identifier: d ID_LIST
+                     Identifier: e ID_LIST
+                  Real
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            Read: a READ_STATEMENT
+         STATEMENT_LIST
+            STATEMENT
+               Read: b READ_STATEMENT
+            STATEMENT_LIST
+               STATEMENT
+                  IF_STATEMENT
+                     CONDITIONAL
+                        EXPRESSION
+                           TERM
+                              Identifier: a ID_VALUE
+                        COMPARATOR
+                        EXPRESSION
+                           TERM
+                              Identifier: b ID_VALUE
+                     STATEMENT_LIST
+                        STATEMENT
+                           WRITE_STATEMENT
+                              OUTPUT_LIST
+                                 Con_VALUE
+                                    Character: A CHARACTER_CONSTANT
+                     STATEMENT_LIST
+                        STATEMENT
+                           WRITE_STATEMENT
+                              OUTPUT_LIST
+                                 Con_VALUE
+                                    Character: B CHARACTER_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     NEWLINE_STATEMENT
+                  STATEMENT_LIST
+                     STATEMENT
+                        Read: d READ_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           Identifier: e ASSIGNMENT_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Identifier: d ID_VALUE
+                                    TERM
+                                       Con_VALUE
+                                          CONSTANT
+                                             Float: 2.3 FLOAT_CONSTANT
+                        STATEMENT_LIST
+                           STATEMENT
+                              WRITE_STATEMENT
+                                 OUTPUT_LIST
+                                    Identifier: e ID_VALUE
+                           STATEMENT_LIST
+                              STATEMENT
+                                 NEWLINE_STATEMENT
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    Read: c READ_STATEMENT
+                                 STATEMENT_LIST
+                                    STATEMENT
+                                       WRITE_STATEMENT
+                                          OUTPUT_LIST
+                                             Identifier: c ID_VALUE
+                                    STATEMENT_LIST
+                                       STATEMENT
+                                          NEWLINE_STATEMENT
+   Identifier: ProgB PROGRAM
+#include <stdio.h>
+
+int main(void) 
+{
+
+int a,b;
+char c;
+float d,e;
+
+scanf(" %d",&a);
+
+scanf(" %d",&b);
+if (a >b )
+{
+printf("A");
+}
+else
+{
+printf("B");
+}
+printf("\n");
+
+scanf(" %f",&d);
+e = d *2.3 ;
+
+printf("%.2f",e );
+printf("\n");
+
+scanf(" %c",&c);
+
+printf("%c",c );
+printf("\n");
+
+}
+--30/11/2017----------------------------------------------------- 
+Parse Tree output for c.spl 
+--12:32:06.56----------------------------------------------------- 
+Identifier: Prog3 PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         SINGLE_DECLARATION
+            Identifier: a ID_LIST
+            Integer
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            FOR_STATEMENT
+               EXPRESSION
+                  TERM
+                     Con_VALUE
+                        CONSTANT
+                           Number: 1 NUMBER_CONSTANT
+               EXPRESSION
+                  TERM
+                     Con_VALUE
+                        CONSTANT
+                           Number: 1 NUMBER_CONSTANT
+               FOR_STATEMENT
+                  EXPRESSION
+                     TERM
+                        Con_VALUE
+                           CONSTANT
+                              Number: 13 NUMBER_CONSTANT
+                  STATEMENT_LIST
+                     STATEMENT
+                        IF_STATEMENT
+                           NOT_CONDITIONAL
+                              CONDITIONAL
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: a ID_VALUE
+                                 COMPARATOR
+                                 EXPRESSION
+                                    TERM
+                                       Con_VALUE
+                                          CONSTANT
+                                             Number: 7 NUMBER_CONSTANT
+                           STATEMENT_LIST
+                              STATEMENT
+                                 WRITE_STATEMENT
+                                    OUTPUT_LIST
+                                       Identifier: a ID_VALUE
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    NEWLINE_STATEMENT
+         STATEMENT_LIST
+            STATEMENT
+               Identifier: a ASSIGNMENT_STATEMENT
+                  EXPRESSION
+                     TERM
+                        Con_VALUE
+                           CONSTANT
+                              Number: 0 NUMBER_CONSTANT
+            STATEMENT_LIST
+               STATEMENT
+                  DO_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           Identifier: a ASSIGNMENT_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Identifier: a ID_VALUE
+                                 EXPRESSION
+                                    TERM
+                                       Con_VALUE
+                                          CONSTANT
+                                             Number: 1 NUMBER_CONSTANT
+                        STATEMENT_LIST
+                           STATEMENT
+                              IF_STATEMENT
+                                 NOT_CONDITIONAL
+                                    AND_CONDITIONAL
+                                       EXPRESSION
+                                          TERM
+                                             Identifier: a ID_VALUE
+                                       COMPARATOR
+                                       AND_CONDITIONAL
+                                          EXPRESSION
+                                             TERM
+                                                Con_VALUE
+                                                   CONSTANT
+                                                      Number: 6 NUMBER_CONSTANT
+                                          CONDITIONAL
+                                             EXPRESSION
+                                                TERM
+                                                   Identifier: a ID_VALUE
+                                             COMPARATOR
+                                             EXPRESSION
+                                                TERM
+                                                   Con_VALUE
+                                                      CONSTANT
+                                                         Number: 8 NUMBER_CONSTANT
+                                 STATEMENT_LIST
+                                    STATEMENT
+                                       WRITE_STATEMENT
+                                          OUTPUT_LIST
+                                             Identifier: a ID_VALUE
+                                    STATEMENT_LIST
+                                       STATEMENT
+                                          NEWLINE_STATEMENT
+                     CONDITIONAL
+                        EXPRESSION
+                           TERM
+                              Identifier: a ID_VALUE
+                        COMPARATOR
+                        EXPRESSION
+                           TERM
+                              Con_VALUE
+                                 CONSTANT
+                                    Number: 14 NUMBER_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     Identifier: a ASSIGNMENT_STATEMENT
+                        EXPRESSION
+                           TERM
+                              Con_VALUE
+                                 CONSTANT
+                                    Number: 0 NUMBER_CONSTANT
+                  STATEMENT_LIST
+                     STATEMENT
+                        WHILE_STATEMENT
+                           CONDITIONAL
+                              EXPRESSION
+                                 TERM
+                                    Identifier: a ID_VALUE
+                              COMPARATOR
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Number: 12 NUMBER_CONSTANT
+                           STATEMENT_LIST
+                              STATEMENT
+                                 WRITE_STATEMENT
+                                    OUTPUT_LIST
+                                       Identifier: a ID_VALUE
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    Identifier: a ASSIGNMENT_STATEMENT
+                                       EXPRESSION
+                                          TERM
+                                             Identifier: a ID_VALUE
+                                          EXPRESSION
+                                             TERM
+                                                Con_VALUE
+                                                   CONSTANT
+                                                      Number: 1 NUMBER_CONSTANT
+                     STATEMENT_LIST
+                        STATEMENT
+                           NEWLINE_STATEMENT
+   Identifier: Prog3 PROGRAM
+#include <stdio.h>
+
+int main(void) 
+{
+
+int a;
+register int _by, _sign;for (a = 1; _by = 1, _sign=(_by == 0 ? 1 : _by/abs(_by)), (a-(13))*_sign <= 0 ;a+= _by)
+{if (!(a ==7))
+{
+printf("%d",a );
+printf("\n");
+}
+
+}
+a = 0;
+do
+{a = a +1;
+if (!(a ==6 && a !=8))
+{
+printf("%d",a );
+printf("\n");
+}
+} while(a <14);
+a = 0;
+while (a <12) 
+{
+
+printf("%d",a );
+a = a +1;
+
+}
+printf("\n");
+
+}
+--30/11/2017----------------------------------------------------- 
+Parse Tree output for d.spl 
+--12:32:07.61----------------------------------------------------- 
+Identifier: Prog4D PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         SINGLE_DECLARATION
+            Identifier: r1 ID_LIST
+               Identifier: r2 ID_LIST
+                  Identifier: r3 ID_LIST
+            Real
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            Identifier: r1 ASSIGNMENT_STATEMENT
+               EXPRESSION
+                  TERM
+                     Con_VALUE
+                        CONSTANT
+                           Minus Float: 2.4 MINUS_FLOAT_CONSTANT
+         STATEMENT_LIST
+            STATEMENT
+               Identifier: r2 ASSIGNMENT_STATEMENT
+                  EXPRESSION
+                     TERM
+                        Con_VALUE
+                           CONSTANT
+                              Minus Float: 34.989 MINUS_FLOAT_CONSTANT
+            STATEMENT_LIST
+               STATEMENT
+                  Identifier: r3 ASSIGNMENT_STATEMENT
+                     EXPRESSION
+                        TERM
+                           Identifier: r1 ID_VALUE
+                           TERM
+                              Identifier: r2 ID_VALUE
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Float: 7.4 FLOAT_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     WRITE_STATEMENT
+                        OUTPUT_LIST
+                           Identifier: r3 ID_VALUE
+                  STATEMENT_LIST
+                     STATEMENT
+                        NEWLINE_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           Read: r1 READ_STATEMENT
+                        STATEMENT_LIST
+                           STATEMENT
+                              Identifier: r3 ASSIGNMENT_STATEMENT
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: r1 ID_VALUE
+                                    EXPRESSION
+                                       TERM
+                                          Identifier: r3 ID_VALUE
+                           STATEMENT_LIST
+                              STATEMENT
+                                 WRITE_STATEMENT
+                                    OUTPUT_LIST
+                                       Identifier: r3 ID_VALUE
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    NEWLINE_STATEMENT
+   Identifier: Prog4D PROGRAM
+#include <stdio.h>
+
+int main(void) 
+{
+
+float r1,r2,r3;
+r1 = -2.4 ;
+r2 = -34.989 ;
+r3 = r1 *r2 /7.4 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+scanf(" %f",&r1);
+r3 = r1 +r3 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+}
+--30/11/2017----------------------------------------------------- 
+Parse Tree output for e.spl 
+--12:32:08.95----------------------------------------------------- 
+Identifier: ProgV PROGRAM
+   BLOCK
+      DECLARATION_BLOCK
+         SINGLE_DECLARATION
+            Identifier: integer ID_LIST
+               Identifier: i ID_LIST
+            Integer
+TYPE_Node
+      STATEMENT_LIST
+         STATEMENT
+            Read: integer READ_STATEMENT
+         STATEMENT_LIST
+            STATEMENT
+               IF_STATEMENT
+                  OR_CONDITIONAL
+                     EXPRESSION
+                        TERM
+                           Identifier: integer ID_VALUE
+                     COMPARATOR
+                     OR_CONDITIONAL
+                        EXPRESSION
+                           TERM
+                              Con_VALUE
+                                 CONSTANT
+                                    Number: 5 NUMBER_CONSTANT
+                        CONDITIONAL
+                           EXPRESSION
+                              TERM
+                                 Identifier: integer ID_VALUE
+                           COMPARATOR
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Number: 12 NUMBER_CONSTANT
+                  STATEMENT_LIST
+                     STATEMENT
+                        WRITE_STATEMENT
+                           OUTPUT_LIST
+                              Identifier: integer ID_VALUE
+            STATEMENT_LIST
+               STATEMENT
+                  WRITE_STATEMENT
+                     OUTPUT_LIST
+                        exp_VALUE
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Number: 36 NUMBER_CONSTANT
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Number: 1 NUMBER_CONSTANT
+               STATEMENT_LIST
+                  STATEMENT
+                     NEWLINE_STATEMENT
+                  STATEMENT_LIST
+                     STATEMENT
+                        FOR_STATEMENT
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Minus Number: 1 MINUS_NUMBER_CONSTANT
+                           EXPRESSION
+                              TERM
+                                 Con_VALUE
+                                    CONSTANT
+                                       Minus Number: 1 MINUS_NUMBER_CONSTANT
+                           FOR_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Minus Number: 5 MINUS_NUMBER_CONSTANT
+                              STATEMENT_LIST
+                                 STATEMENT
+                                    WRITE_STATEMENT
+                                       OUTPUT_LIST
+                                          Identifier: integer ID_VALUE
+                                 STATEMENT_LIST
+                                    STATEMENT
+                                       NEWLINE_STATEMENT
+                     STATEMENT_LIST
+                        STATEMENT
+                           Identifier: i ASSIGNMENT_STATEMENT
+                              EXPRESSION
+                                 TERM
+                                    Con_VALUE
+                                       CONSTANT
+                                          Minus Number: 1 MINUS_NUMBER_CONSTANT
+                        STATEMENT_LIST
+                           STATEMENT
+                              FOR_STATEMENT
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: i ID_VALUE
+                                       TERM
+                                          Identifier: i ID_VALUE
+                                          TERM
+                                             Identifier: i ID_VALUE
+                                 EXPRESSION
+                                    TERM
+                                       Identifier: i ID_VALUE
+                                       TERM
+                                          Identifier: i ID_VALUE
+                                          TERM
+                                             Identifier: i ID_VALUE
+                                             TERM
+                                                Identifier: i ID_VALUE
+                                                TERM
+                                                   Identifier: i ID_VALUE
+                                 FOR_STATEMENT
+                                    EXPRESSION
+                                       TERM
+                                          Identifier: i ID_VALUE
+                                          TERM
+                                             Identifier: i ID_VALUE
+                                             TERM
+                                                exp_VALUE
+                                                   EXPRESSION
+                                                      TERM
+                                                         Identifier: i ID_VALUE
+                                                      EXPRESSION
+                                                         TERM
+                                                            Identifier: i ID_VALUE
+                                                         EXPRESSION
+                                                            TERM
+                                                               Identifier: i ID_VALUE
+                                                            EXPRESSION
+                                                               TERM
+                                                                  Identifier: i ID_VALUE
+                                                               EXPRESSION
+                                                                  TERM
+                                                                     Identifier: i ID_VALUE
+                                    STATEMENT_LIST
+                                       STATEMENT
+                                          WRITE_STATEMENT
+                                             OUTPUT_LIST
+                                                Identifier: integer ID_VALUE
+                                       STATEMENT_LIST
+                                          STATEMENT
+                                             NEWLINE_STATEMENT
+   Identifier: ProgV PROGRAM
+#include <stdio.h>
+
+int main(void) 
+{
+
+int integer,i;
+
+scanf(" %d",&integer);
+if (integer <=5 || integer >=12)
+{
+printf("%d",integer );
+}
+
+printf("%d",36-1);
+printf("\n");
+register int _by, _sign;for (integer = -1 ; _by = -1 , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(-5 ))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+i = -1 ;
+for (integer = i *i *i ; _by = i *i *i *i *i , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(i *i *(i +i +i +i +i )))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+
+}
+--30/11/2017----------------------------------------------------- 
+C Code output for a.spl 
+--12:32:12.82----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+printf("h""e""l""l""o");
+printf("\n");
+
+
+}
+--30/11/2017----------------------------------------------------- 
+C Code output for b.spl 
+--12:32:13.95----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+int a,b;
+char c;
+float d,e;
+
+scanf(" %d",&a);
+
+scanf(" %d",&b);
+if (a >b )
+{
+printf("A");
+}
+else
+{
+printf("B");
+}
+printf("\n");
+
+scanf(" %f",&d);
+e = d *2.3 ;
+
+printf("%.2f",e );
+printf("\n");
+
+scanf(" %c",&c);
+
+printf("%c",c );
+printf("\n");
+
+}
+--30/11/2017----------------------------------------------------- 
+C Code output for c.spl 
+--12:32:14.88----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+int a;
+register int _by, _sign;for (a = 1; _by = 1, _sign=(_by == 0 ? 1 : _by/abs(_by)), (a-(13))*_sign <= 0 ;a+= _by)
+{if (!(a ==7))
+{
+printf("%d",a );
+printf("\n");
+}
+
+}
+a = 0;
+do
+{a = a +1;
+if (!(a ==6 && a !=8))
+{
+printf("%d",a );
+printf("\n");
+}
+} while(a <14);
+a = 0;
+while (a <12) 
+{
+
+printf("%d",a );
+a = a +1;
+
+}
+printf("\n");
+
+}
+--30/11/2017----------------------------------------------------- 
+C Code output for d.spl 
+--12:32:16.47----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+float r1,r2,r3;
+r1 = -2.4 ;
+r2 = -34.989 ;
+r3 = r1 *r2 /7.4 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+scanf(" %f",&r1);
+r3 = r1 +r3 ;
+
+printf("%.2f",r3 );
+printf("\n");
+
+}
+--30/11/2017----------------------------------------------------- 
+C Code output for e.spl 
+--12:32:17.36----------------------------------------------------- 
+#include <stdio.h>
+
+int main(void) 
+{
+
+int integer,i;
+
+scanf(" %d",&integer);
+if (integer <=5 || integer >=12)
+{
+printf("%d",integer );
+}
+
+printf("%d",36-1);
+printf("\n");
+register int _by, _sign;for (integer = -1 ; _by = -1 , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(-5 ))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+i = -1 ;
+for (integer = i *i *i ; _by = i *i *i *i *i , _sign=(_by == 0 ? 1 : _by/abs(_by)), (integer-(i *i *(i +i +i +i +i )))*_sign <= 0 ;integer+= _by)
+{
+printf("%d",integer );
+printf("\n");
+
+}
+
+}
+--30/11/2017----------------------------------------------------- 
+Correct Execution output for a.spl  
+--12:32:19.61----------------------------------------------------- 
+hello
+--30/11/2017----------------------------------------------------- 
+Correct Execution output for b.spl  
+--12:32:21.96----------------------------------------------------- 
+B
+7.82
+x
+--30/11/2017----------------------------------------------------- 
+Correct Alternate Execution output for c.spl  
+--12:32:25.91----------------------------------------------------- 
+1
+2
+3
+4
+5
+6
+8
+9
+10
+11
+12
+13
+1
+2
+3
+4
+5
+7
+8
+9
+10
+11
+12
+13
+14
+01234567891011
+--30/11/2017----------------------------------------------------- 
+Program D needs a visual inspection of floating point numbers 11.35 17.15 
+--12:32:27.73----------------------------------------------------- 
+11.35
+17.15
+--30/11/2017----------------------------------------------------- 
+Correct Execution output for e.spl  
+--12:32:31.36----------------------------------------------------- 
+1234535
+-1
+-2
+-3
+-4
+-5
+-1
+-2
+-3
+-4
+-5
