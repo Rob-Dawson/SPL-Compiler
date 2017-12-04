@@ -1,5 +1,3 @@
-#Spl Compiler
-
 SPL Compiler
 
 Included Files
